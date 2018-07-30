@@ -1,0 +1,46 @@
+{
+  "name": "DataBoardNintyFive",
+  "version": "1.0.0",
+  "description": "基础框架",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --progress --colors ",
+    "build": "rimraf dist && webpack --config config/webpack.pro.js --progress --colors --profile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.ximalaya.com/Syne/DataBoardNintyFive.git"
+  },
+  "author": "victor.shen <victor.shen@ximalaya.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.3",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "output": [
+    "dist/**"
+  ],
+  "minJs": false,
+  "minCss": false,
+  "dependencies": {
+    "peer": "^0.2.8"
+  }
+}
