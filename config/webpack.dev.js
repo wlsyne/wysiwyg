@@ -11,7 +11,7 @@ module.exports = webpackMerge(common, {
     devServer: {
         historyApiFallback: true,
         stats: 'minimal',
-        host:'192.168.137.227',
+        host:'192.168.136.246',
         port:8848
     }
 });

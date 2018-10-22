@@ -3,7 +3,7 @@ let sle = window.getSelection()
 let $strong=$('strong')
 let $parent=$('.selected')
 let $selected2=$('.selected2')
-
+let reg=/^(http:\/\/|https:\/\/)(\w|\d){1,}(\.ximalaya\.com){1}/
 // 获取选区
 $('.getSle').on('click', function(e) {
     console.log(sle)
